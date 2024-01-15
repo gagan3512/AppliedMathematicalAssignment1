@@ -26,4 +26,5 @@ jobs:
     - name: Run Tests
       run: |
         # Run your tests here
-        # Example: pytest
+        # Example: pytest tests/
+        pytest ex1_test.py
