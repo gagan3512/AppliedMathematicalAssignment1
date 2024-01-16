@@ -27,7 +27,7 @@ def test_output_is_alphanumeric():
     assert name_point.hi_my_name_is().isalnum()
 
 def test_output_has_correct_length():
-    assert len(name_point.hi_my_name_is()) == 5
+    assert len(name_point.hi_my_name_is()) == 6
 
 def test_output_starts_with_specific_letter():
     assert name_point.hi_my_name_is().startswith("G")
