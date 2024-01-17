@@ -33,7 +33,7 @@ def test_output_starts_with_specific_letter():
     assert name_point.hi_my_name_is().startswith("G")
 
 def test_output_ends_with_specific_letter():
-    assert name_point.hi_my_name_is().endswith("N")
+    assert name_point.hi_my_name_is().endswith("Q")
 
 def test_output_is_not_empty():
     assert name_point.hi_my_name_is() != ""
